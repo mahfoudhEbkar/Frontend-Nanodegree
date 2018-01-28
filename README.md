@@ -10,7 +10,7 @@ This repository contains project work for Udacity's [Front-End Web Developer Nan
 - **project 4** - Feed Reader Testing
 - **project 5** - Restaurant Reviews
 - **project 6** - MyReads: A Book Tracking App (React)
-- **project 6** -  Neighborhood Map (React)
+- **project 7** -  Neighborhood Map (React)
 
 
 <!--![Certificate]()-->
