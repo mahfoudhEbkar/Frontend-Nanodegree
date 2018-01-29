@@ -1,0 +1,63 @@
+/* add your CSS here */
+
+* {
+    margin: 0 auto;
+    padding: 0 auto;
+    text-align: left;
+    list-style: none;
+}
+
+body {
+    background: url(https://images8.alphacoders.com/719/719673.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+.info-desc{
+
+	margin-top: 30px;
+    border-radius: 10px;
+    width: 300px;
+    box-shadow: 0 10px 30px black;
+    background-color: #e2ae7bc9;
+
+}
+
+.fun-fact{
+	font-style: italic;
+	padding: 20px 10px;
+
+}
+
+span{
+
+	font-weight: bold;
+}
+
+ul {
+
+	list-style-type:none;
+	padding: 0 0 20px 0;
+	display: block;
+
+}
+
+
+
+.info{
+
+	border: 2px solid #0202015e;
+	width: 295px;
+	box-shadow:  2px 1px 1px 1px #634033;
+	padding: 0 0 10px 0;
+}
+
+
+
+
+.horse{
+
+	width: 300px;
+	border-radius: 10px 30px 3 3;
+    overflow: hidden;
+	
+}
