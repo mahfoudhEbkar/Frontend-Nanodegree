@@ -49,7 +49,9 @@ ul {
 	border: 2px solid #0202015e;
 	width: 295px;
 	box-shadow:  2px 1px 1px 1px #634033;
-	padding: 0 0 10px 0;
+	padding: 0 0 10px 0px;
+	
+
 }
 
 
