@@ -1,0 +1,156 @@
+html {
+    box-sizing: border-box
+}
+*,
+*::after,
+*::before {
+    box-sizing: inherit
+}
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 0;
+}
+p {
+  margin: 0 0 1em;
+}
+body{
+	    overflow-y: scroll;
+}
+.container {
+  width: 100%;
+  height: 100%;
+  max-width: 1820px;
+  margin: 0 auto;
+  overflow-y: scroll;
+}
+.header{
+	position: fixed;
+	top: 0px;
+	left: 0px; 
+ 	width: 20%;
+ 	border: 3px solid red;
+ }
+.logo {
+    position: fixed;
+    width: 15%;
+    height: 30%;
+    max-width: 250;
+    max-height: 350;
+    left: 1%;
+    top: 2.5em;
+}
+.name {
+	width: 70%;
+    height: 20%;
+    position: fixed;
+    left: 12%;
+    top: 3.5em;
+    font-family: Montserrat, sans-serif;
+    font-size: 1.5em;
+    line-height: 2;
+    font-weight: 500;
+    text-align: center;
+    position: relative;
+}
+.resume {
+    position: relative;
+    top: 9em;
+    width: 65%;
+    height: 100%;
+    bottom: 0;
+    left: 20%;
+    right: 100%;
+    background-color: #fff;
+    font-family: Hind, sans-serif;
+    font-size: 0.9375rem;
+    font-weight: 500;
+    line-height: 1.818;
+}
+.sidebar {
+  margin-top: 1em;
+  width: 10%;
+}
+.main{
+    width: 90%;
+    padding-right: 25%;
+}
+.tag {
+	text-transform: uppercase;
+    font-style: italic;
+    font-weight: 700;
+    color: rgb(43, 93, 240);
+}
+.main {
+    width: 90%;
+    padding-right: 10%;
+}
+.screen {
+ 	width: 90%;
+ 	height: 75%;
+ 	max-width: 900px;
+ 	max-height: 900px;
+ 	top: 8%;
+}
+
+@media screen and (min-width: 260px) and (max-width: 650px) {
+    
+.logo{
+    position: fixed;
+    width: 15%;
+    max-width: 370px;
+   padding: 3.125rem;
+}
+.name {
+	width: 80%;
+    height: 20%;
+    position: fixed;
+    left: 8%;
+    top: 1.5em;
+    font-family: Montserrat, sans-serif;
+    font-size: 0.8em;
+    line-height: 2;
+    font-weight: 300;
+    text-align: center;
+    position: relative;
+}
+.resume {
+    position: relative;
+    top: 2em;
+    width: 65%;
+    height: 100%;
+    bottom: 0;
+    left: 20%;
+    right: 100%;
+    background-color: #fff;
+    font-family: Hind, sans-serif;
+    font-size: 0.850rem;
+    font-weight: 300;
+    line-height: 1.818;
+}
+.sidebar {
+    margin-top: 1em;
+  	width: 10%;
+}
+.tag {
+	text-transform: uppercase;
+    font-style: italic;
+    font-weight: 600;
+    color: rgb(43, 93, 240);
+}
+}
+
+@media screen and (min-width: 650px) and (max-width: 750px) {
+    
+.name {
+	width: 80%;
+    height: 20%;
+    position: fixed;
+    left: 8%;
+    top: 8.5em;
+    font-family: Montserrat, sans-serif;
+    font-size: 0.8em;
+    line-height: 2;
+    font-weight: 300;
+    text-align: center;
+    position: relative;
+}
+}
