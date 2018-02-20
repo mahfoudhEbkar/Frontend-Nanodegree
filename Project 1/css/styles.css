@@ -1,3 +1,92 @@
+
+
+.logo {
+  margin-top: 100px;
+  width: 120px;
+  height: 120px;
+  border-radius: 40%;
+  border: 3px solid #ff3b3b;
+  transition: all .7s;
+}
+
+.logo:hover {
+  transform: rotate3d(2,8,3,350deg);
+}
+
+.main-nav {
+  width: 100%;
+  background: black;
+  min-height: 30px;
+  padding: 10px;
+  position: fixed;
+  text-align: center;
+  top: 0;
+  z-index: 999;
+}
+.nav {
+  display: flex;
+  justify-content: space-around;
+  font-weight: 700;
+  list-style-type: none;
+  margin: 0 auto;
+  padding: 0;
+}
+.nav .name {
+  color: #8f981a;
+}
+.nav li {
+  padding: 5px 10px 10px 10px;
+}
+.nav a {
+  transition: all ;
+  color: white;
+}
+.nav a:hover {
+  color: #8f981a
+}
+.name {
+  color: #27981a;
+}
+
+ header{
+  text-align: center;
+  background: url('../images/tech_background.jpg') no-repeat top center ;
+  background-size: cover;
+  overflow: hidden;
+  padding-top: 70px;
+}
+
+
+
+@media screen and (min-width: 800px) {
+  
+  .flex {
+      display: flex;
+      max-width: 1200px;
+      justify-content: space-around;
+      margin: 0 auto;
+  }
+
+  header {
+    min-height: 500px;
+  }
+
+  .nav {
+    max-width: 1300px;
+  }
+
+  .nav .name {
+    display: block;
+    margin-right: auto;
+    font-weight: 1000;
+  }
+}
+
+
+
+
+/**********/
+
 html {
     box-sizing: border-box
 }
@@ -13,44 +102,16 @@ p {
   margin: 0 0 1em;
 }
 body{
-	    overflow-y: scroll;
+      overflow-y: scroll;
 }
 .container {
   width: 100%;
   height: 100%;
   max-width: 1820px;
   margin: 0 auto;
-  overflow-y: scroll;
+  
 }
-.header{
-	position: fixed;
-	top: 0px;
-	left: 0px; 
- 	width: 20%;
- 	border: 3px solid red;
- }
-.logo {
-    position: fixed;
-    width: 15%;
-    height: 30%;
-    max-width: 250;
-    max-height: 350;
-    left: 1%;
-    top: 2.5em;
-}
-.name {
-	width: 70%;
-    height: 20%;
-    position: fixed;
-    left: 12%;
-    top: 3.5em;
-    font-family: Montserrat, sans-serif;
-    font-size: 1.5em;
-    line-height: 2;
-    font-weight: 500;
-    text-align: center;
-    position: relative;
-}
+
 .resume {
     position: relative;
     top: 9em;
@@ -74,7 +135,7 @@ body{
     padding-right: 25%;
 }
 .tag {
-	text-transform: uppercase;
+  text-transform: uppercase;
     font-style: italic;
     font-weight: 700;
     color: rgb(43, 93, 240);
@@ -84,34 +145,16 @@ body{
     padding-right: 10%;
 }
 .screen {
- 	width: 90%;
- 	height: 75%;
- 	max-width: 900px;
- 	max-height: 900px;
- 	top: 8%;
+  width: 90%;
+  height: 75%;
+  max-width: 900px;
+  max-height: 900px;
+  top: 8%;
 }
 
 @media screen and (min-width: 260px) and (max-width: 650px) {
     
-.logo{
-    position: fixed;
-    width: 15%;
-    max-width: 370px;
-   padding: 3.125rem;
-}
-.name {
-	width: 80%;
-    height: 20%;
-    position: fixed;
-    left: 8%;
-    top: 1.5em;
-    font-family: Montserrat, sans-serif;
-    font-size: 0.8em;
-    line-height: 2;
-    font-weight: 300;
-    text-align: center;
-    position: relative;
-}
+
 .resume {
     position: relative;
     top: 2em;
@@ -128,10 +171,10 @@ body{
 }
 .sidebar {
     margin-top: 1em;
-  	width: 10%;
+    width: 10%;
 }
 .tag {
-	text-transform: uppercase;
+  text-transform: uppercase;
     font-style: italic;
     font-weight: 600;
     color: rgb(43, 93, 240);
@@ -141,7 +184,7 @@ body{
 @media screen and (min-width: 650px) and (max-width: 750px) {
     
 .name {
-	width: 80%;
+  width: 80%;
     height: 20%;
     position: fixed;
     left: 8%;
