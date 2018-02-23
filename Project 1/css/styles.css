@@ -22,6 +22,8 @@
   text-align: center;
   top: 0;
   z-index: 999;
+  top: 0;
+  left: 0;
 }
 .nav {
   display: flex;
@@ -45,7 +47,7 @@
   color: #8f981a
 }
 .name {
-  color: #27981a;
+  color: #bf2424;;
 }
 
  header {
