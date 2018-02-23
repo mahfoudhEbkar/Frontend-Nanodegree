@@ -116,6 +116,9 @@ body {
 }
 
 .resume {
+    
+    display: flex;
+    flex-flow: column wrap;
     position: relative;
     top: 9em;
     width: 65%;
@@ -146,11 +149,10 @@ body {
     font-weight: 700;
     color: rgb(43, 93, 240);
 }
+  
+ 
 
-.main {
-    width: 90%;
-    padding-right: 10%;
-}
+
 
 .screen {
   width: 90%;
@@ -191,19 +193,3 @@ body {
   }
 }
 
-@media screen and (min-width: 650px) and (max-width: 750px) {
-    
-.name {
-  width: 80%;
-    height: 20%;
-    position: fixed;
-    left: 8%;
-    top: 8.5em;
-    font-family: Montserrat, sans-serif;
-    font-size: 0.8em;
-    line-height: 2;
-    font-weight: 300;
-    text-align: center;
-    position: relative;
-  }
-}
