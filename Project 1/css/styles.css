@@ -51,6 +51,7 @@
 }
 
  header {
+
   text-align: center;
   background: url('../images/tech_background.jpg') no-repeat top center ;
   background-size: cover;
@@ -66,7 +67,7 @@
       display: flex;
       max-width: 1200px;
       justify-content: space-around;
-      margin: 0 auto;
+      
   }
 
   header {
@@ -118,10 +119,11 @@ body {
 }
 
 .resume {
-    
+       
     display: flex;
     flex-flow: column wrap;
-    position: relative;
+    /*position: relative;*/
+     margin: 40px auto;
     top: 9em;
     width: 65%;
     height: 100%;
@@ -133,6 +135,7 @@ body {
     font-size: 0.9375rem;
     font-weight: 500;
     line-height: 1.818;
+
 }
 
 .sidebar {
@@ -152,16 +155,58 @@ body {
     color: rgb(43, 93, 240);
 }
   
- 
-
-
-
 .screen {
   width: 90%;
   height: 75%;
   max-width: 900px;
   max-height: 900px;
   top: 8%;
+}
+
+footer {
+  width: 100%;
+  min-height: 30px;
+  padding: 20px 0 40px 20px;
+  text-align: center;
+}
+
+footer .copyright {
+  top: -8px;
+  margin-right: 20px;
+  font-size: .75em;
+}
+
+footer ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+footer ul li {
+  display: inline-block;
+}
+
+a.social {
+  display: inline-block;
+  text-indent: -9999px;
+  margin-left: 5px;
+  width: 30px;
+  height: 30px;
+  background-size: 30px 30px;
+  opacity: .5;
+  transition: all .25s;
+}
+a.twitter {
+  background-image: url(../images/twitter.svg);
+}
+a.linkedin {
+  background-image: url(../images/linkedin.svg);
+}
+a.github {
+  background-image: url(../images/github.svg);
+}
+a.social:hover {
+  opacity: 1;
 }
 
 @media screen and (min-width: 260px) and (max-width: 650px) {
